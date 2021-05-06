@@ -42,7 +42,8 @@ Find the file `index.js` and complete the tasks.
 
 Edit the `ReadMe` file with your answers.
 
-1. In your own words, define closure (1-2 sentences).
+1. In your own words, define closure (1-2 sentences). 
+A closure is a combination of a function bundled together that references its surrounding state. 
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,9 +64,14 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
+a. Where is closure used in this code? 
+
+How can you tell? It is usead in line 51 beacause calling back the function. 
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+What is always the same is the function but the value could change if you invoke it with a different value 
 c. What is the lexical scope of `newRoll`? 
+The lexical scope of newRoll is personalDice function.  
 
 
 ### Task 3 - Stretch Goals
